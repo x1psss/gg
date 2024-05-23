@@ -13,5 +13,5 @@ if __name__ == "__main__":
     if "error" in joke:
         print(joke["error"])
     else:
-        print(f"Setup: {joke['setup']}")
-        print(f"Punchline: {joke['punchline']}")
+        print(f"Подводка: {joke['setup']}")
+        print(f"Панчлайн: {joke['punchline']}")
